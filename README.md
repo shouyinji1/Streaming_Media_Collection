@@ -1,2 +1,2 @@
-# Network Stream Collection
-network stream collection for radio or TV
+# Streaming Media Collection
+network stream collection for radio and TV
