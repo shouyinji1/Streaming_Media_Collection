@@ -4,5 +4,8 @@ http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws
 # KDFC
 https://provisioning.streamtheworld.com/pls/KDFCFM.pls
 
-# Radio Free Asia(RFA)
+# Radio Free Asia (RFA)
 https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_1/index.m3u8
+
+# RTHK Radio 1 (香港电台第一台)
+https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8
