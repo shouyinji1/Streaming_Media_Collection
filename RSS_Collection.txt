@@ -3,3 +3,6 @@ https://www.debian.org/News/news
 
 # Nature
 http://feeds.nature.com/nature/rss/current
+
+# 财经网全站
+http://www.caijing.com.cn/rss/index.xml
