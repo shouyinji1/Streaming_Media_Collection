@@ -22,6 +22,9 @@ http://www.caijing.com.cn/rss/index.xml
 # 极客公园
 http://www.geekpark.net/rss
 
+# 科学网新闻RSS——首页头条
+http://www.sciencenet.cn/xml/news-0.aspx?news=0
+
 # 毛球-汇集互联网热门、有趣内容的图片社区
 https://api.maoqiuapp.com/rss.xml
 
