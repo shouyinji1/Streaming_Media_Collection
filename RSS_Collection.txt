@@ -19,6 +19,9 @@ http://blog.ecocn.org/feed
 # 财经网全站
 http://www.caijing.com.cn/rss/index.xml
 
+# 环球科学
+https://huanqiukexue.com/data/rss/1.xml
+
 # 极客公园
 http://www.geekpark.net/rss
 
