@@ -4,6 +4,9 @@ https://www.debian.org/News/news
 # Nature
 http://feeds.nature.com/nature/rss/current
 
+# PanSci 泛科學
+https://pansci.asia/feed
+
 # 财经网全站
 http://www.caijing.com.cn/rss/index.xml
 
