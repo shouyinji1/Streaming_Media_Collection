@@ -7,5 +7,5 @@ http://feeds.nature.com/nature/rss/current
 # 财经网全站
 http://www.caijing.com.cn/rss/index.xml
 
-# 汇集互联网热门、有趣内容的图片社区
+# 毛球-汇集互联网热门、有趣内容的图片社区
 https://api.maoqiuapp.com/rss.xml
