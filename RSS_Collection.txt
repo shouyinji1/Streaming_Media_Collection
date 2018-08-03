@@ -1,0 +1,2 @@
+# Debian News
+https://www.debian.org/News/news
