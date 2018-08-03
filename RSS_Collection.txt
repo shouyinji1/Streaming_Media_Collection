@@ -13,6 +13,9 @@ http://feeds.nature.com/nature/rss/current
 # PanSci 泛科學
 https://pansci.asia/feed
 
+# Scientific American
+http://rss.sciam.com/ScientificAmerican-Global
+
 # The Economist 经济学人 经济学家 中文版
 http://blog.ecocn.org/feed
 
