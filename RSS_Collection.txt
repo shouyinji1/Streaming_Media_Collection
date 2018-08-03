@@ -1,6 +1,12 @@
 # Debian News
 https://www.debian.org/News/news
 
+# FT中文网-每日更新
+http://www.ftchinese.com/rss/feed
+
+# FT中文网-今日焦点
+http://www.ftchinese.com/rss/news
+
 # Nature
 http://feeds.nature.com/nature/rss/current
 
