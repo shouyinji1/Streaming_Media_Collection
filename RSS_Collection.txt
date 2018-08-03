@@ -19,5 +19,8 @@ http://www.geekpark.net/rss
 # 毛球-汇集互联网热门、有趣内容的图片社区
 https://api.maoqiuapp.com/rss.xml
 
+# 纽约时报中文网 国际纵览
+https://cn.nytimes.com/rss.html
+
 # 月光博客
 http://feed.williamlong.info/
