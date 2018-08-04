@@ -1,12 +1,20 @@
-localhost,127.0.0.1,
+localhost, 127.0.0.1,
 
 # Baidu,
+dup.baidustatic.com,
+fex.bdstatic.com,
+hm.baidu.com,
+iknowpc.bdimg.com,
 m.baidu.com,
+ss1.bdstatic.com,
 www.baidu.com,
 zhidao.baidu.com,
 
 # Zhihu,
+static.zhihu.com,
+unpkg.zhimg.com,
 www.zhihu.com,
+zhstatic.zhihu.com
 
 bluebiu.com,
 cdn2.jianshu.io,
