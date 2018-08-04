@@ -43,7 +43,6 @@ stu.hyit.edu.cn
 www.hyit.edu.cn,
 xinwen.hyit.edu.cn,
 
-
 # Tencent,
 captcha.gtimg.com,
 imgcache.qq.com,
@@ -61,6 +60,11 @@ ty.captcha.qq.com,
 ui.ptlogin2.qq.com,
 www.qzone.com,
 xui.ptlogin2.qq.com,
+
+# Wikipedia
+en.m.wikipedia.org,
+en.wikipedia.org,
+www.wikipedia.org,
 
 # Zhihu,
 static.zhihu.com,
