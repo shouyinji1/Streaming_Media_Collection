@@ -1,7 +1,10 @@
 localhost,127.0.0.1,
 
+# Baidu
+m.baidu.com
+www.baidu.com,
+
 bluebiu.com,
 cdn2.jianshu.io,
 github.com,
-www.baidu.com,
 www.jianshu.com,
