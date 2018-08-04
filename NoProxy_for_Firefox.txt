@@ -41,7 +41,7 @@ wn.pos.baidu.com,
 www.baidu.com,
 zhidao.baidu.com,
 
-# cnblogs,
+# cnblogs.com,
 www.cnblogs.com,
 
 # CSDN,
