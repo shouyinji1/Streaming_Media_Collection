@@ -4,6 +4,9 @@ localhost,127.0.0.1,
 m.baidu.com
 www.baidu.com,
 
+# Zhihu
+www.zhihu.com
+
 bluebiu.com,
 cdn2.jianshu.io,
 github.com,
