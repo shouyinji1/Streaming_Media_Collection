@@ -1,9 +1,16 @@
 localhost, 127.0.0.1,
 
+# 365jia.cn,
+365jia.cn,
+img.365jia.cn,
+res.365jia.cn,
+
 # Baidu,
+api.share.baidu.com,
 cbjs.baidu.com,
 cpro.baidustatic.com,
 dup.baidustatic.com,
+eclick.baidu.com,
 fex.bdstatic.com,
 hm.baidu.com,
 iknowpc.bdimg.com,
@@ -13,6 +20,7 @@ passport.baidu.com,
 pos.baidu.com,
 s1.bdstatic.com
 ss1.bdstatic.com,
+ubmcmm.baidustatic.com,
 www.baidu.com,
 zhidao.baidu.com,
 
@@ -30,10 +38,11 @@ xui.ptlogin2.qq.com,
 static.zhihu.com,
 unpkg.zhimg.com,
 www.zhihu.com,
-zhstatic.zhihu.com
+zhstatic.zhihu.com,
 
 bluebiu.com,
 cdn2.jianshu.io,
 github.com,
+push.zhanzhang.baidu.com,
 www.jianshu.com,
-www.weibo.com
+www.weibo.com,
