@@ -1,11 +1,17 @@
 localhost, 127.0.0.1,
 
 # Baidu,
+cbjs.baidu.com,
+cpro.baidustatic.com,
 dup.baidustatic.com,
 fex.bdstatic.com,
 hm.baidu.com,
 iknowpc.bdimg.com,
 m.baidu.com,
+news.baidu.com,
+passport.baidu.com,
+pos.baidu.com,
+s1.bdstatic.com
 ss1.bdstatic.com,
 www.baidu.com,
 zhidao.baidu.com,
@@ -30,3 +36,4 @@ bluebiu.com,
 cdn2.jianshu.io,
 github.com,
 www.jianshu.com,
+www.weibo.com
