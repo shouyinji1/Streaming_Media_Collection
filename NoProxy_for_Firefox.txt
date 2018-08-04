@@ -25,6 +25,11 @@ ubmcmm.baidustatic.com,
 www.baidu.com,
 zhidao.baidu.com,
 
+# Huaiyin Institute of Technology,
+www.hyit.edu.cn,
+xinwen.hyit.edu.cn,
+
+
 # Tencent,
 qzone.qq.com,
 imgcache.qq.com,
