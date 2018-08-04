@@ -113,6 +113,12 @@ ui.ptlogin2.qq.com,
 www.qzone.com,
 xui.ptlogin2.qq.com,
 
+# V2EX
+cdn.v2ex.com,
+static.v2ex.com,
+v23x.assets.uxengine.net,
+www.v2ex.com,
+
 # Wikipedia,
 en.m.wikipedia.org,
 en.wikipedia.org,
