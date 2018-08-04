@@ -26,6 +26,8 @@ www.baidu.com,
 zhidao.baidu.com,
 
 # Huaiyin Institute of Technology,
+jwxt.hyit.edu.cn,
+stu.hyit.edu.cn
 www.hyit.edu.cn,
 xinwen.hyit.edu.cn,
 
