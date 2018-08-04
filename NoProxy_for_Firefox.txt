@@ -44,6 +44,9 @@ www.hyit.edu.cn,
 xinwen.hyit.edu.cn,
 
 # Mozilla,
+location.services.mozilla.com,
+mozong.cdn.mozilla.net,
+prod-cdn.sumo.mozilla.net,
 static-media-prod-cdn.sumo.mozilla.net,
 support.mozilla.org,
 
