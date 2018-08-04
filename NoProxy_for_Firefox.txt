@@ -1,11 +1,11 @@
 localhost,127.0.0.1,
 
-# Baidu
+# Baidu,
 m.baidu.com
 www.baidu.com,
 
-# Zhihu
-www.zhihu.com
+# Zhihu,
+www.zhihu.com,
 
 bluebiu.com,
 cdn2.jianshu.io,
