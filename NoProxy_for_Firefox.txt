@@ -7,6 +7,7 @@ res.365jia.cn,
 
 # Baidu,
 api.share.baidu.com,
+bdimg.share.baidu.com,
 cbjs.baidu.com,
 cpro.baidustatic.com,
 dup.baidustatic.com,
@@ -40,6 +41,8 @@ unpkg.zhimg.com,
 www.zhihu.com,
 zhstatic.zhihu.com,
 
+
+183.207.103.130,
 bluebiu.com,
 cdn2.jianshu.io,
 github.com,
