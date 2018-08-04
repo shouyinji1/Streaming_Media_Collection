@@ -3,6 +3,7 @@ localhost,127.0.0.1,
 # Baidu,
 m.baidu.com,
 www.baidu.com,
+zhidao.baidu.com,
 
 # Zhihu,
 www.zhihu.com,
