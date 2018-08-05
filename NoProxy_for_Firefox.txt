@@ -82,6 +82,12 @@ static.mediav.com,
 static-blog.csdn.net,
 zhannei-dm.csdn.net,
 
+# Douban
+fundin.douban.com,
+img1.doubanio.com,
+img3.doubanio.com,
+www.douban.com,
+
 # Huaiyin Institute of Technology,
 jwxt.hyit.edu.cn,
 stu.hyit.edu.cn,
