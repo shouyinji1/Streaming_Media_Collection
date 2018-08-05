@@ -2,9 +2,12 @@ localhost, 127.0.0.1,
 
 .cn,
 
+.acgvideo.com,
 .aliyun.com, 
+.bilibili.com,
 .cnblogs.com, 
 .csdn.net, 
+.hdslb.com,
 .jd.com, 
 .jianshu.com, 
 .jianshu.io,
@@ -52,4 +55,3 @@ play.taihe.com,
 recom-1252788780.cosbj.myqcloud.com, 
 s07.flagcounter.com, 
 shared.ydstatic.com, 
-
