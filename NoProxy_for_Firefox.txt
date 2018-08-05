@@ -82,7 +82,7 @@ static.mediav.com,
 static-blog.csdn.net,
 zhannei-dm.csdn.net,
 
-# Douban
+# Douban,
 fundin.douban.com,
 img1.doubanio.com,
 img3.doubanio.com,
