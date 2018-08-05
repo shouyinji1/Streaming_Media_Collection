@@ -1,9 +1,7 @@
 localhost, 127.0.0.1,
 
 # 365jia.cn,
-365jia.cn,
-img.365jia.cn,
-res.365jia.cn,
+*.365jia.cn,
 
 # Baidu,
 als.baidu.com,
