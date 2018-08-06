@@ -50,6 +50,7 @@ localhost, 127.0.0.1,
 .youku.com,
 .zhihu.com,
 
+.apnic.net,
 .debian.org,
 .github.com,
 .github.io,
