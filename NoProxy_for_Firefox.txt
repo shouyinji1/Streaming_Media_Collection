@@ -38,9 +38,11 @@ ubmcmm.baidustatic.com,
 .mozilla.net, 
 .mozilla.org, 
 
+.qcloudimg.com,
+.gtimg.com,
 .qq.com, 
-.gtimg.com, 
-.qzone.com, 
+.qzone.com,
+.tencent.com,
 
 .v2ex.com, 
 v23x.assets.uxengine.net, 
