@@ -52,6 +52,7 @@ localhost, 127.0.0.1,
 
 .debian.org,
 .github.com,
+.github.io,
 .microsoft.com,
 .mozilla.com,
 .mozilla.net,
