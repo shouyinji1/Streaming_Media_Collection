@@ -1,6 +1,6 @@
 localhost, 127.0.0.1,
 
-.cn,
+cn,
 
 126.com,
 126.net,
