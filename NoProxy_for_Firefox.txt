@@ -131,6 +131,8 @@ zhanzhang.net,
 zhihu.com,
 zhimg.com,
 
+amazon.com,
+amazonaws.com,
 apnic.net,
 adobe.com,
 debian.org,
