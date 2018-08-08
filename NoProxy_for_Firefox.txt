@@ -133,6 +133,7 @@ zhimg.com,
 
 amazon.com,
 amazonaws.com,
+amazonaws-china.com,
 apnic.net,
 adobe.com,
 debian.org,
