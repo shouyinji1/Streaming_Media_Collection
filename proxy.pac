@@ -2,7 +2,8 @@ var autoproxy_host = {
 	"facebook.com": 1,
 	"google.com": 1,
 	"twitter.com": 1,
-	"wikipedia.org":1,
+	"zh.m.wikipedia.org":1,
+	"zh.wikipedia.org":1,
 	"www.google.com": 1
 };
 function FindProxyForURL(url, host){
