@@ -2,7 +2,7 @@ var autoproxy_host = {
 	"facebook.com": 1,
 	"google.com": 1,
 	"twitter.com": 1,
-	
+	"wikipedia.org":1,
 	"www.google.com": 1
 };
 function FindProxyForURL(url, host){
@@ -11,6 +11,7 @@ function FindProxyForURL(url, host){
 		if(autoproxy_host.hasOwnProperty(host)){
 			return 'SOCKS 127.0.0.1:6000';
 		}
+
 		lasPos=host.indexOf('.') + 1;
 		host = host.slice(lastPos);
 	}while (lastPos>=1);
