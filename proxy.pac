@@ -1,10 +1,10 @@
 var autoproxy_host = {
-	"||facebook.com": 1,
-	"||google.com": 1,
-	"||reddit.com":1,
-	"||twitter.com": 1,
-	"||wikipedia.org": 1,
-	"||youtube.com": 1
+	"*.facebook.com": 1,
+	"*.google.com": 1,
+	"*.reddit.com":1,
+	"*.twitter.com": 1,
+	"*.wikipedia.org": 1,
+	"*.youtube.com": 1
 };
 function FindProxyForURL(url, host){
 	var lastPos;
