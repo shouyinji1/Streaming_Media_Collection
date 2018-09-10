@@ -1,3 +1,15 @@
+var my_socks="SOCKS 127.0.0.1:6000;DIRECT";
+
+function FindProxyForURL(url, host){
+	if(shExpMatch(host, "*.cn")){
+		return "DIRECT"
+	}
+	return my_socks;
+};
+
+
+
+/*
 var autoproxy_host = {
 	"*.facebook.com": 1,
 	"*.google.com": 1,
@@ -18,3 +30,6 @@ function FindProxyForURL(url, host){
 	}while (lastPos>=1);
 	return 'DIRECT';
 };
+*/
+
+
