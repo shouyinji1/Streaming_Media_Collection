@@ -1,6 +1,9 @@
 # Debian News
 https://www.debian.org/News/news
 
+# FT
+https://www.ft.com/rss/
+
 # FT中文网-今日焦点
 http://www.ftchinese.com/rss/news
 
