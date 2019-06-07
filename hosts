@@ -1,0 +1,206 @@
+### Begin of Personal hosts:
+
+# THOMSON REUTERS
+13.35.8.11	mobile.reuters.com
+13.35.8.56	mobile.reuters.com
+13.35.8.70	mobile.reuters.com
+13.35.8.94	mobile.reuters.com
+
+# VOA
+23.2.129.202	www.voachinese.com
+23.2.129.202	www.voanews.com
+104.108.68.251  av.voanews.com
+104.108.68.251  www.voachinese.com
+184.31.86.49	gdb.voanews.com
+
+# BBC
+23.44.138.76	ichef.bbci.co.uk
+151.101.76.81	www.bbc.com
+212.58.246.54	www.bbc.co.uk
+212.58.249.214	www.bbc.co.uk
+
+# Facebook
+31.13.82.7	staticxx.facebook.com
+
+# DuckDuckGo
+34.241.201.179	start.duckduckgo.com
+34.243.144.154	start.duckduckgo.com
+34.243.160.29 start.duckduckgo.com
+46.51.197.89  duckduckgo.com
+46.51.216.187	proxy.duckduckgo.com
+46.51.219.131 images.duckduckgo.com
+50.18.192.250 duckduckgo.com
+50.18.192.251 duckduckgo.com
+52.74.174.169	proxy.duckduckgo.com
+54.229.105.92 duckduckgo.com
+54.229.105.203  duckduckgo.com
+54.229.110.205  icons.duckduckgo.com
+54.229.110.205  images.duckduckgo.com
+54.254.135.186	images.duckduckgo.com
+176.34.131.233  duckduckgo.com
+176.34.135.167  duckduckgo.com
+176.34.155.20 duckduckgo.com
+
+# Tor
+38.229.72.16  www.torproject.org
+78.47.38.229  bridges.torproject.org
+82.195.75.101	ooni.torproject.org
+82.195.75.101	stem.torproject.org
+82.195.75.101 www.torproject.org
+86.59.30.40 www.torproject.org
+89.45.235.21  wiki.torproject.org
+138.201.14.197	ooni.torproject.org
+138.201.14.197	stem.torproject.org
+138.201.14.197  www.torproject.org
+138.201.212.227 trac.torproject.org
+154.35.132.70 www.torproject.org
+
+# Dow Jones
+54.230.108.20	www.wsj.com
+54.230.108.24	jp.wsj.com
+54.230.108.37	www.wsj.com
+54.230.108.42	jp.wsj.com
+54.230.108.108	www.wsj.com
+54.230.108.123	jp.wsj.com
+54.230.108.206	www.wsj.com
+54.230.108.226	jp.wsj.com
+
+# 搜撒币
+93.179.113.110	so.sb
+
+# Agar.io
+104.17.150.222	bouncer.agar.io
+104.17.151.222	bouncer.agar.io
+104.17.152.222	bouncer.agar.io
+104.17.153.222	bouncer.agar.io
+104.17.154.222	bouncer.agar.io
+
+# Free Proxy List
+104.18.32.112	free-proxy-list.net
+104.18.33.112	free-proxy-list.net
+104.18.58.86	www.socks-proxy.net
+104.18.59.86	www.socks-proxy.net
+104.24.98.135	www.us-proxy.org
+104.24.99.135	www.us-proxy.org
+104.28.30.59	www.sslproxies.org
+104.28.31.59	www.sslproxies.org
+104.31.80.31	myiphide.com
+104.31.81.31	myiphide.com
+
+# APKMirror
+104.19.132.58	apkmirror.com
+104.19.132.58	www.apkmirror.com
+104.19.133.58	apkmirror.com
+104.19.133.58	www.apkmirror.com
+104.19.134.58	apkmirror.com
+104.19.134.58	www.apkmirror.com
+104.19.135.58	apkmirror.com
+104.19.135.58	www.apkmirror.com
+104.19.136.58	apkmirror.com
+104.19.136.58	www.apkmirror.com
+
+# APKPure
+104.20.82.194	apkpure.com
+104.20.82.194	www.apkpure.com
+104.20.83.194	apkpure.com
+104.20.83.194	www.apkpure.com
+
+# GreatFire
+104.25.53.117	cc.greatfire.org
+104.25.53.117	en.greatfire.org
+104.25.53.117	freebrowser.org
+104.25.54.117	cc.greatfire.org
+104.25.54.117	en.greatfire.org
+104.25.54.117	freebrowser.org
+
+# China Digital Times
+104.25.197.116	chinadigitaltimes.net
+104.25.198.116	chinadigitaltimes.net
+
+# 禁闻网
+104.27.202.98 www.bannedbook.org
+104.27.203.98 www.bannedbook.org
+
+# bbs.boxun.com
+104.31.78.211	bbs.boxun.com
+104.31.79.211	bbs.boxun.com
+
+# Lianhe Zaobao
+115.127.234.20	link.zaobao.com
+115.127.234.105	link.zaobao.com
+152.195.56.196	www.zaobao.com.sg
+
+# WikiLeaks
+141.105.65.113  www.wikileaks.org
+141.105.69.239  www.wikileaks.org
+195.35.109.44 www.wikileaks.org
+195.35.109.53 www.wikileaks.org
+
+# HideIPVPN
+148.251.80.170	billing.hideipvpn.com
+148.251.80.170	www.hideipvpn.com
+
+# Reddit
+151.101.1.140	reddit.com
+151.101.65.140	reddit.com
+151.101.129.140	reddit.com
+151.101.193.140	reddit.com
+
+# Bloomberg LP
+151.101.229.73	www.bloomberg.com
+
+# The New York Times
+151.101.229.164	www.nytimes.com
+
+# FiiNote
+172.217.4.147 www.fiinote.com
+216.58.194.211  www.fiinote.com
+
+# Youtube
+172.217.25.206	www.youtube.com
+172.217.25.238	www.youtube.com
+172.217.31.142	youtu.be
+173.194.51.152	r2---sn-ogueln7r.googlevideo.com
+
+# Nature
+172.217.25.243  feeds.nature.com
+
+# Google
+172.217.27.115	www.chromestatus.com
+172.217.31.142	docs.google.com
+172.217.31.164	www.google.com
+172.217.161.227	www.google.co.jp
+
+# GitHub
+192.30.253.118  gist.github.com
+192.30.253.119  gist.github.com
+
+# W3Schools
+192.229.179.87	www.w3schools.com
+192.229.133.221	www.w3schools.com
+192.229.173.207	www.w3schools.com
+
+# Wikipedia
+198.35.26.96	ja.wikipedia.org
+198.35.26.96	ja.m.wikipedia.org
+198.35.26.96  zh.wikipedia.org
+198.35.26.96  zh.m.wikipedia.org
+198.35.26.112 upload.wikimedia.org
+
+# Internet Archive
+207.241.228.75	ia802205.us.archive.org
+
+
+## Third party hosts
+111.67.201.52	accounts.google.com
+111.67.201.52	myaccount.google.com
+111.67.201.52	scholar.google.com
+111.67.201.52	support.google.com
+111.67.201.52	translate.google.com
+111.67.201.52	www.google.com
+111.67.201.52	www.google.com.hk
+111.67.201.52	www.google.co.jp
+219.76.4.17	lh3.googleusercontent.com
+
+### End of Personal hosts
+### shouyinji1
