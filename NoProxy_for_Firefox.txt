@@ -176,6 +176,7 @@ zhihuishu.com,
 zhimg.com,
 
 
+
 amazon.com,
 amazonaws.com,
 amazonaws-china.com,
@@ -202,9 +203,7 @@ mozilla.org,
 office.com,
 oracle.com,
 python.org,
-shouyinji1.tk,
 test-ipv6.com,
 ubuntu.com,
 vmware.com,
 vultr.com,
-wikimedia.org,
