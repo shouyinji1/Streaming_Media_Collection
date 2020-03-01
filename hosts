@@ -55,6 +55,16 @@
 138.201.212.227 trac.torproject.org
 154.35.132.70 www.torproject.org
 
+# Free-Proxy.com
+45.58.117.98	us5.free-proxy.com
+147.135.44.178	us3.free-proxy.com
+147.135.44.179	us4.free-proxy.com
+148.72.168.34	us1.free-proxy.com
+148.72.168.34	www.free-proxy.com
+148.72.169.80	us2.free-proxy.com
+163.172.118.140	eu2.free-proxy.com
+199.127.60.210	us6.free-proxy.com
+
 # Dow Jones
 54.230.108.20	www.wsj.com
 54.230.108.24	jp.wsj.com
@@ -135,9 +145,6 @@
 141.105.69.239  www.wikileaks.org
 195.35.109.44 www.wikileaks.org
 195.35.109.53 www.wikileaks.org
-
-# Free Proxy
-148.72.168.34	www.free-proxy.com
 
 # HideIPVPN
 148.251.80.170	billing.hideipvpn.com
