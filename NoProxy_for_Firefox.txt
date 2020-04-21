@@ -90,7 +90,6 @@ hdslb.com,
 hupu.com,
 iciba.com,
 icourse163.org,
-ifeng.com,
 imgcdc.com,
 ip138.com,
 ip163.com,
@@ -151,8 +150,6 @@ stg8.com,
 suishouxie.com,
 taihe.com,
 tanx.com,
-taobao.com,
-taobaocdn.com,
 tencent.com,
 tianyaui.com,
 tiebaimg.com,
@@ -197,6 +194,20 @@ www.gstatic.com,
 
 cm.g.doubleclick.net,
 googleads.g.doubleclick.net,
+
+# 中华新闻网,
+china.com,
+
+# 凤凰网,
+ifeng.com,
+
+# 淘宝,
+taobao.com,
+taobaocdn.com,
+
+# 作业帮,
+zuoyebang.cc,
+zybang.com,
 
 
 
