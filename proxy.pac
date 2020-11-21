@@ -43,9 +43,12 @@ var autoProxyDomains={
 
 
 	"*.facebook.com":2,
+	"*.gitlab.com":2,
 	"*.reddit.com":2,
 	"*.twitter.com":2,
 	"*.wikipedia.org":2,
+	"*.youtube.com":2,
+	"raw.githubusercontent.com":2,
 };
 
 // 检查host是不是IP地址
