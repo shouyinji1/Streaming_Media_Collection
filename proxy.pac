@@ -8,15 +8,24 @@ var proxyServers=[
 ];
 
 var autoProxyDomains={
-	"github.com":0,
-
 	"*.cn":0,
-	"*.baidu.com":0,
 	"*.bilibili.com":0,
-	"*.csdn.net":0,
 	"*.cnblogs.com":0,
+	"*.csdn.net":0,
 	"*.ip138.com":0,
+	"*.mozilla.org":0,
+	"*.zhihu.com":0,
+	"github.com":0,
+	"cn.bing.com":0,
+	
+	// Baidu
+	"*.baidu.com":0,
+	"*.bcebos.com":0,
+	"*.bdimg.com":0,
+	"*.bdstatic.com":0,
+	
 
+	// 由Reabble.cn提供的PAC规则
 	"*.google.com":1,
 	"*.gstatic.com":1,
 	"*.googleapis.com":1,
@@ -25,6 +34,7 @@ var autoProxyDomains={
 	"*.reabble.com":1,
 	"*.feedx.net":1,
 	"*.rsshub.app":1,
+
 
 	"*.wikipedia.org":2,
 };
@@ -43,6 +53,7 @@ function isIP(hostParts){
 
 function autoProxyHosts(host, hosts) {
 	var hostParts = host.split('.'), testHost = [];
+
 	if(isIP(hostParts)==false){	// host不是IP地址
 		while (hostParts.length) {
 			testHost.unshift(hostParts.pop());
@@ -50,17 +61,14 @@ function autoProxyHosts(host, hosts) {
 			if (proxyServers[proxyServerIndex]) {
 				return proxyServerIndex;
 			}
-			var proxyServerIndex=hosts[testHost.join('.')];
-			if (proxyServers[proxyServerIndex]) {
-				return proxyServerIndex;
-			}
 		}
-	}else{	// host是IP地址
-		var proxyServerIndex=hosts[host];
-		if (proxyServers[proxyServerIndex]) {
-			return proxyServerIndex;
-		}
+	}	
+
+	var proxyServerIndex=hosts[host];
+	if (proxyServers[proxyServerIndex]) {
+		return proxyServerIndex;
 	}
+
 	return 2;	// Default proxy
 }
 
