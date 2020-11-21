@@ -5,12 +5,12 @@
 // 4. 最后，以上步骤都不通，放弃代理（直连）
 
 var proxyServers=[
-	"DIRECT",
+	"DIRECT;",
 
 	// This PAC server is from https://makemenotme.ga/pac
-	"HTTPS makemenotme.ga:26101",	// For Reabble.cn
+	"HTTPS makemenotme.ga:26101;",	// For Reabble.cn
 
-	"HTTP 127.0.0.1:40755",	// Lantern
+	"HTTP 127.0.0.1:40755;",
 ];
 
 var autoProxyDomains={
@@ -87,8 +87,8 @@ function autoProxyHosts(host, hosts) {
 function FindProxyForURL(url, host){
 	if (isPlainHostName(host))	//如果域名中没有点(no dots)，则直连
 		return 'DIRECT';
-	var proxyTunnel=proxyServers[autoProxyHosts(host,autoProxyDomains)]+"; "
-		+proxyServers[2]+
-		+"; DIRECT";
+	var proxyTunnel=proxyServers[autoProxyHosts(host,autoProxyDomains)]
+		+proxyServers[2]
+		+"DIRECT";
 	return proxyTunnel;
 };
