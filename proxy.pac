@@ -1,3 +1,9 @@
+// 规则：
+// 1. 先按List走;
+// 2. 如果List没有记录相应域名的连接规则，则直连;
+// 3. 如果1、2两步不通，则走Server 2(Lantern)。
+// 4. 最后，以上步骤都不通，放弃代理（直连）
+
 var proxyServers=[
 	"DIRECT",
 
@@ -36,6 +42,9 @@ var autoProxyDomains={
 	"*.rsshub.app":1,
 
 
+	"*.facebook.com":2,
+	"*.reddit.com":2,
+	"*.twitter.com":2,
 	"*.wikipedia.org":2,
 };
 
@@ -69,11 +78,14 @@ function autoProxyHosts(host, hosts) {
 		return proxyServerIndex;
 	}
 
-	return 2;	// Default proxy
+	return 0;	// Default proxy
 }
 
 function FindProxyForURL(url, host){
 	if (isPlainHostName(host))	//如果域名中没有点(no dots)，则直连
 		return 'DIRECT';
-	return proxyServers[autoProxyHosts(host,autoProxyDomains)];
+	var proxyTunnel=proxyServers[autoProxyHosts(host,autoProxyDomains)]+"; "
+		+proxyServers[2]+
+		+"; DIRECT";
+	return proxyTunnel;
 };
