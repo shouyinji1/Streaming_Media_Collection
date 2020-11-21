@@ -1,35 +1,71 @@
-var my_socks="SOCKS 127.0.0.1:6000;DIRECT";
+var proxyServers=[
+	"DIRECT",
 
-function FindProxyForURL(url, host){
-	if(shExpMatch(host, "*.cn")){
-		return "DIRECT"
-	}
-	return my_socks;
+	// This PAC server is from https://makemenotme.ga/pac
+	"HTTPS makemenotme.ga:26101",	// For Reabble.cn
+
+	"HTTP 127.0.0.1:40755",	// Lantern
+];
+
+var autoProxyDomains={
+	"github.com":0,
+
+	"*.cn":0,
+	"*.baidu.com":0,
+	"*.bilibili.com":0,
+	"*.csdn.net":0,
+	"*.cnblogs.com":0,
+	"*.ip138.com":0,
+
+	"*.google.com":1,
+	"*.gstatic.com":1,
+	"*.googleapis.com":1,
+	"*.ggpht.com":1,
+	"*.inoreader.com":1,
+	"*.reabble.com":1,
+	"*.feedx.net":1,
+	"*.rsshub.app":1,
+
+	"*.wikipedia.org":2,
 };
 
-
-
-/*
-var autoproxy_host = {
-	"*.facebook.com": 1,
-	"*.google.com": 1,
-	"*.reddit.com":1,
-	"*.twitter.com": 1,
-	"*.wikipedia.org": 1,
-	"*.youtube.com": 1
-};
-function FindProxyForURL(url, host){
-	var lastPos;
-	do {
-		if(autoproxy_host.hasOwnProperty(host)){
-			return 'SOCKS 127.0.0.1:6000';
+// 检查host是不是IP地址
+function isIP(hostParts){
+	if(hostParts.length==4){
+		for(var i of hostParts){
+			if(isNaN(i)==true)
+				return false;
 		}
+		return true;
+	}
+	return false;
+}
 
-		lasPos=host.indexOf('.') + 1;
-		host = host.slice(lastPos);
-	}while (lastPos>=1);
-	return 'DIRECT';
+function autoProxyHosts(host, hosts) {
+	var hostParts = host.split('.'), testHost = [];
+	if(isIP(hostParts)==false){	// host不是IP地址
+		while (hostParts.length) {
+			testHost.unshift(hostParts.pop());
+			var proxyServerIndex=hosts["*."+testHost.join('.')];
+			if (proxyServers[proxyServerIndex]) {
+				return proxyServerIndex;
+			}
+			var proxyServerIndex=hosts[testHost.join('.')];
+			if (proxyServers[proxyServerIndex]) {
+				return proxyServerIndex;
+			}
+		}
+	}else{	// host是IP地址
+		var proxyServerIndex=hosts[host];
+		if (proxyServers[proxyServerIndex]) {
+			return proxyServerIndex;
+		}
+	}
+	return 2;	// Default proxy
+}
+
+function FindProxyForURL(url, host){
+	if (isPlainHostName(host))	//如果域名中没有点(no dots)，则直连
+		return 'DIRECT';
+	return proxyServers[autoProxyHosts(host,autoProxyDomains)];
 };
-*/
-
-
